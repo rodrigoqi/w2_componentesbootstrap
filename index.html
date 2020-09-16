@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<!--Tags básicas do head-->
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Aqui o título da aba</title>
+	<!--Link dos nossos arquivos CSS e JS padrão-->
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<script src="js/scripts.js"></script>
+	<!--Link dos arquivos CSS e JS do Bootstrap-->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+	<div class="container">
+		<!--Crie suas rows e cols aqui dentro do container principal-->
+		<div class="row">
+			<div class="col-md-12">
+				<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+					<a class="navbar-brand" href="#">Moug Ltda</a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse"
+						data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado"
+						aria-expanded="false" aria-label="Alterna navegação">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+
+					<div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+						<ul class="navbar-nav mr-auto">
+							<li class="nav-item">
+								<a class="nav-link" href="#">Home <span class="sr-only">(página atual)</span></a>
+							</li>
+							<li class="nav-item active">
+								<a class="nav-link" href="#">História</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Missão</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Contato</a>
+							</li>
+
+
+						</ul>
+						<form class="form-inline my-2 my-lg-0">
+							<input class="form-control mr-sm-2" type="search" placeholder="Pesquisar"
+								aria-label="Pesquisar">
+							<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+						</form>
+					</div>
+				</nav>
+			</div>
+		</div>
+
+
+		<div class="row">
+			<div class="col-md-12">
+				<div id="demo" class="carousel slide" data-ride="carousel">
+
+					<!-- Indicators -->
+					<ul class="carousel-indicators">
+						<li data-target="#demo" data-slide-to="0" class="active"></li>
+						<li data-target="#demo" data-slide-to="1"></li>
+						<li data-target="#demo" data-slide-to="2"></li>
+					</ul>
+
+					<!-- The slideshow -->
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img src="img/ceva1.jpg" alt="Los Angeles">
+						</div>
+						<div class="carousel-item">
+							<img src="img/ceva2.jpg" alt="Chicago">
+						</div>
+						<div class="carousel-item">
+							<img src="img/ceva3.jpg" alt="New York">
+						</div>
+					</div>
+
+					<!-- Left and right controls -->
+					<a class="carousel-control-prev" href="#demo" data-slide="prev">
+						<span class="carousel-control-prev-icon"></span>
+					</a>
+					<a class="carousel-control-next" href="#demo" data-slide="next">
+						<span class="carousel-control-next-icon"></span>
+					</a>
+
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-12">
+				<div id="accordion">
+
+					<div class="card">
+						<div class="card-header">
+							<a class="card-link" data-toggle="collapse" href="#collapseOne">
+								English Pale Ale
+							</a>
+						</div>
+						<div id="collapseOne" class="collapse show" data-parent="#accordion">
+							<div class="card-body">
+
+								<div class="col-md-12">
+									Um dos mais antigos estilos de cerveja, a expressão Pale Ale significa cerveja clara
+									de alta fermentação. A English Pale Ale é também chamada na Inglaterra de English
+									Bitter, por ser uma cerveja perceptivelmente mais amarga. As denominações variam em,
+									Ordinary Bitter, de 3,2% a 3,8% de álcool, Best Bitter, de 3,8% a 4,6% e Extra
+									Strong Bitter (ESB) com teor alcoólico entre 4,6% e 6,2%. Como resultado da baixa
+									carbonatação, uma característica típica desses estilos de cerveja é a pouca formação
+									de espuma.
+								</div>
+								<br>
+								<div class="row">
+									<div class="col-md-3">
+										<img class="img-fluid rounded-circle" src="img/pale1.jpg">
+									</div>
+
+									<div class="col-md-3">
+										<img class="img-fluid rounded-circle" src="img/pale2.jpeg">
+									</div>
+
+									<div class="col-md-3">
+										<img class="img-fluid rounded-circle" src="img/pale3.jpg">
+									</div>
+
+									<div class="col-md-3">
+										<img class="img-fluid rounded-circle" src="img/pale4.jpg">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="card">
+						<div class="card-header">
+							<a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+								Weizenbier
+							</a>
+						</div>
+						<div id="collapseTwo" class="collapse" data-parent="#accordion">
+							<div class="card-body">
+								Também chamado de weissbier, weiss ou simplesmente de cerveja de trigo, a Weizenbier é
+								uma cerveja típica do sul da Alemanha, região da Baviera. Produzida com, pelo menos, 50%
+								de malte de trigo. São cervejas claras e opacas, com espuma branca e abundante.
+								Apresenta aromas e sabores frutados de banana, maça e de especiarias, como cravo e
+								florais. São bastante refrescante e de moderado teor alcoólico, ficando entre 5% a 6% de
+								álcool. Algumas variações do estilo Weizenbier são: Hefe-Weiss ou Hefe-weizen, quando
+								não é filtrada; Kristallweizen, quando é filtrada; Dunkelweizen, que uma weizen escura;
+								Weizenbock, com teor alcoólico mais elevado e Hop Weiss, uma weiss mais lupulada.
+
+
+							</div>
+						</div>
+					</div>
+
+					<div class="card">
+						<div class="card-header">
+							<a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+								Belgian Dubbel
+							</a>
+						</div>
+						<div id="collapseThree" class="collapse" data-parent="#accordion">
+							<div class="card-body">
+								Criada pelo Mosteiro Trapista de Westmalle, na Idade Média, o nome Belgian Dubbel surgiu
+								para diferenciá-la da tradicional Ale da dieta dos monges, que era menos alcoólica. São,
+								portanto, cervejas com forte presença de malte, produzindo um sabor torrado de nozes e
+								chocolate, e pouca presença de lúpulo, o que resulta em uma cerveja com baixo amargor. A
+								coloração pode partir do cobre ao marrom. No aroma apresenta um toque de banana e frutas
+								não cítricas. É uma cerveja que produz uma espuma cremosa e duradoura.
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+	</div>
+</body>
+
+</html>
